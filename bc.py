@@ -43,7 +43,7 @@ class Blockchain:
         for i in range(len(self.chain)):
             print("<------CoinName------>")
             print("Block=",i,"\nData=",str(self.chain[i].data),"\nTimeStamp=",str(self.chain[i].timeStamp),"\nHash=",str(self.chain[i].hash),"\nPrevious Hash =",str(self.chain[i].previousHash))
-            print("<------CoinName------>")                                                                                         #yukarıda son kod "previousHash))"" (ekrana sığmadı :))
+            print("<------CoinName------>")                                                                                        
 Coin = Blockchain()
 
 while True:
